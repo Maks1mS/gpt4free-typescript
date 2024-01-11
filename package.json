@@ -1,0 +1,22 @@
+{
+  "name": "gpt4free-typescript",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maks1mS/gpt4free-typescript.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Maks1mS/gpt4free-typescript/issues"
+  },
+  "homepage": "https://github.com/Maks1mS/gpt4free-typescript#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
