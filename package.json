@@ -2,8 +2,10 @@
   "name": "gpt4free-typescript",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc -b",
+    "dev": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,11 @@
   },
   "homepage": "https://github.com/Maks1mS/gpt4free-typescript#readme",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.12",
+    "langchain": "^0.1.2"
   }
 }
